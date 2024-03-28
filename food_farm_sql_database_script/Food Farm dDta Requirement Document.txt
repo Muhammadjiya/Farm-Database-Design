@@ -1,0 +1,14 @@
+Food Farm data requirements document.
+
+
+The farm has its farm staff who are responsible for managing all the activities of the farm. Staff have a staff id, name, date of birth, email, department and post. Some staff have a higher position than others and serve as their managers or supervisors.
+
+Department, the farm has several departments including, fisheries, cattle, orchard, crop, rabbits, poultry and piggery, marketing and records and management. staff can belong to different departments and departments can have more than one staff. Each department has a head/ supervisor.
+
+The farm has an inventory of equipment and tools used in production and maintenance of farm activities. Equipment have and equipment id, date purchased, cost of purchase, lifespan. Equipment are used by any number of staff from any departments. Sometimes equipment are “borrowed” by staff of other departments. 
+
+The farm also keeps an inventory of farm produce from different departments. Although some departments are non-producing. The inventory of farm produce have a department id where they were produced, date of production, cost per unit, total units (quantity)
+
+The farm like any other, runs on a budget. Each department has a specific amount allocated to its head. Allocations occur quarterly. Each allocation is kept track of by its department, date of disbursement, department id, staff id (manager/head/supervisor). Amount disbursed.
+
+The marketing/ sales department is responsible for as the name implies marketing and sales of farm produce. They keep track of produce that is allotted to them by various producing departments including, department id, produce type, received date, units of the product, cost per unit, units sold, amount sold. 
